@@ -1,0 +1,75 @@
+{
+  "name": "enfspatch-promise",
+  "version": "0.1.0",
+  "description": "Patches for node fs module with promises",
+  "license": "CC-BY-4.0",
+  "author": {
+    "name": "Joao Parreira",
+    "email": "joaofrparreira@gmail.com"
+  },
+  "homepage": "https://github.com/n3okill/enfspatch-promise",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n3okill/enfspatch-promise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n3okill/enfspatch-promise/issues"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test",
+    "appveyor": "node ./node_modules/mocha/bin/mocha --reporter spec --require should test/*.js"
+  },
+  "dependencies": {
+    "enfspatch": "^1",
+     "enfsaddins-promise": "^1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1",
+    "should": "^11.2.1"
+  },
+  "keywords": [
+    "appendFile",
+    "chown",
+    "fchown",
+    "lchown",
+    "chownSync",
+    "fchownSync",
+    "lchownSync",
+    "chmod",
+    "fchmod",
+    "lchmod",
+    "chmodSync",
+    "fchmodSync",
+    "lchmodSync",
+    "lutimes",
+    "lutimesSync",
+    "create",
+    "close",
+    "closeSync",
+    "directory",
+    "fs",
+    "file",
+    "file system",
+    "open",
+    "recursive",
+    "read",
+    "readdir",
+    "readFile",
+    "ReadStream",
+    "readSync",
+    "rename",
+    "write",
+    "WriteStream",
+    "writeFile"
+  ]
+}
