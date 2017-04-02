@@ -1,6 +1,6 @@
 {
   "name": "enfspatch-promise",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Patches for node fs module with promises",
   "license": "CC-BY-4.0",
   "author": {
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "enfspatch": "^1",
-     "enfsaddins-promise": "^1"
+    "enfsaddins-promise": "^1"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
