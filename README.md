@@ -28,6 +28,15 @@ Use this
     const enfs = require("enfspatch-promise");
 ```
 
+All async methods finish with 'P', example:
+open => openP
+
+```js
+    enfs.openP("/path","flags").then(function(fd){
+        console.log(fd);
+    });
+```
+
 instead of
 
 ```js
