@@ -1,6 +1,6 @@
 {
   "name": "enfspatch-promise",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Patches for node fs module with promises",
   "license": "CC-BY-4.0",
   "author": {
